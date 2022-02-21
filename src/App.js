@@ -28,13 +28,17 @@ function Header() {
         <div style={{ display: 'flex' }}>
           <ul className='HeaderLists'>
             <a target='_blank' rel='noopener' href='https://github.com/Racksoup'>
-              <li>Github - https://github.com/Racksoups</li>
+              <li>Github - https://github.com/Racksoup</li>
             </a>
-            <a target='_blank' rel='noopener' href=''>
-              <li>LinkedIn - </li>
+            <a
+              target='_blank'
+              rel='noopener'
+              href='https://www.linkedin.com/in/connor-rack-ab9755206/'
+            >
+              <li>LinkedIn - https://www.linkedin.com /in/connor-rack-ab9755206/</li>
             </a>
           </ul>
-          <ul className='HeaderLists' style={{ marginLeft: '70px' }}>
+          <ul className='HeaderLists' style={{ marginLeft: '20px' }}>
             <a target='_blank' rel='noopener' href=''>
               <li>Showcase - </li>
             </a>

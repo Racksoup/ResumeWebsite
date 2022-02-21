@@ -23,7 +23,6 @@ body {
 .App {
   display: flex;
   justify-content: center;
-  color: black;
   overflow: auto;
 }
 
@@ -90,6 +89,7 @@ a {
 .HeaderLists {
   margin: 6px 0px 0px 50px;
   font-size: 16px;
+  width: 260px;
 }
 
 .Contact {
