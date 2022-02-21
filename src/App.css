@@ -1,38 +1,207 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Background {
+  background-color: rgb(73, 73, 73);
+  position: fixed;
+  z-index: -4;
+  height: 100%;
+  width: 100%;
+}
+
 .App {
+  display: flex;
+  justify-content: center;
+  color: black;
+  overflow: auto;
+}
+
+img,
+a {
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+.Name {
   text-align: center;
+  font-size: 44px;
+  margin-top: 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.WebsiteLink {
+  position: absolute;
+  margin: 93px 700px 0px 0px;
+  text-align: center;
+  font-size: 12px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Page */
+/* Page */
+.PageGrid {
+  width: 1000px;
+  min-height: 1000px;
+  display: Grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 40px 90px 90px 200px 500px 150px;
+  background-color: white;
+  margin-top: 40px;
+  border-radius: 6px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.SectionTitle {
+  font-size: 32px;
+  margin: 0px auto 20px auto;
+  border-bottom: solid 2px black;
+  width: 85%;
+}
+
+.SectionText {
+  font-size: 20px;
+  margin: 0px 50px 0px 40px;
+}
+
+/* Header */
+/* Header */
+.Header {
+  display: Grid;
+  grid-template-columns: 67% 33%;
+  grid-template-rows: 1fr;
+  border-bottom: solid 2px black;
+}
+
+.HeaderTitles {
+  margin: 0px 0px 0px 20px;
+  font-size: 26px;
+  text-decoration: underline;
+}
+
+.HeaderLists {
+  margin: 6px 0px 0px 50px;
+  font-size: 16px;
+}
+
+.Contact {
   display: flex;
   flex-direction: column;
+  height: 80%;
+  border-left: solid 2px black;
+}
+
+.Links {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Statement */
+/* Statement*/
+.Statement {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+/* Skills */
+/* Skills */
+.Skills {
+  display: flex;
+  flex-direction: column;
+}
+
+.SkillsGrid {
+  margin: 0px 0px 0px 170px;
+  height: 161px;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.SkillsGridListLabel {
+  font-size: 20px;
+  margin: 0px 0px 5px -25px;
+}
+
+.SkillsGridList {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px 0px 20px;
+}
+
+/* Projects */
+/* Projects */
+.Projects {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 9fr;
+  flex-direction: column;
+}
+
+.ProjectsFlex {
+  display: flex;
+  flex-direction: column;
+}
+
+.ProjectsGrid {
+  display: Grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.ProjectsGridItem {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.ProjectsGridButton {
+  margin-top: 4px;
+  height: 60%;
+  width: 88%;
+  border-radius: 22px;
+  background-color: aqua;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ProjectImage {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+  border-radius: 22px;
+}
+
+.ProjectLinkLabel {
+  font-size: 12px;
+  margin: 4px 0px 0px 0px;
+}
+
+.ProjectItemDesc {
+  font-size: 20px;
+  width: 70%;
+  margin: 10px 0px 0px 0px;
+}
+
+/* WorkXP */
+/* WorkXP */
+.WorkXP {
+  display: flex;
+  flex-direction: column;
+}
+
+.WorkXPList {
+  margin: 0px 0px 0px 120px;
+  font-size: 16px;
 }
