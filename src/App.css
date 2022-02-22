@@ -86,6 +86,10 @@ a {
   text-decoration: underline;
 }
 
+.HeaderLinksFlex {
+  display: flex;
+}
+
 .HeaderLists {
   margin: 6px 0px 0px 50px;
   font-size: 16px;
@@ -97,6 +101,10 @@ a {
   flex-direction: column;
   height: 80%;
   border-left: solid 2px black;
+}
+
+.ContactList2 {
+  margin-left: 20px;
 }
 
 .Links {
@@ -204,4 +212,85 @@ a {
 .WorkXPList {
   margin: 0px 0px 0px 120px;
   font-size: 16px;
+}
+
+/* screen width between 600px and 1000px  */
+@media screen and (max-width: 992px) {
+  .PageGrid {
+    width: 600px;
+    grid-template-rows: 40px 180px 90px 200px 1350px 150px;
+    margin-top: 0px;
+  }
+
+  .Header {
+    grid-template-columns: 1fr;
+    grid-template-rows:
+      1fr
+      1fr;
+  }
+
+  .Contact {
+    border-left: none;
+  }
+
+  .SkillsGrid {
+    margin: 0px 0px 0px 80px;
+  }
+
+  .ProjectsGrid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ProjectsGridItem {
+    width: 350px;
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .PageGrid {
+    width: 400px;
+    grid-template-rows: 70px 220px 150px 400px 1350px 130px;
+  }
+
+  .Header {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .HeaderLists {
+    margin: 6px 0px 0px 50px;
+    width: 300px;
+  }
+
+  .HeaderLinksFlex {
+    flex-direction: column;
+  }
+
+  .Statement {
+    margin-top: 10px;
+  }
+
+  .SkillsGrid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 0px 0px 0px 40px;
+  }
+
+  .ProjectsGrid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ProjectsGridItem {
+    width: 350px;
+    height: 450px;
+  }
+
+  .WorkXPList {
+    margin: 0px 0px 0px 40px;
+  }
 }

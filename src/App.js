@@ -1,5 +1,6 @@
 import './App.css';
 import PetStoreImg from './images/PetStore.png';
+import SodaRankerImg from './images/SodaTierRanker.png';
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function Header() {
     <div className='Header'>
       <div className='Links'>
         <p className='HeaderTitles'>Links</p>
-        <div style={{ display: 'flex' }}>
+        <div className='HeaderLinksFlex'>
           <ul className='HeaderLists'>
             <a target='_blank' rel='noopener' href='https://github.com/Racksoup'>
               <li>Github - https://github.com/Racksoup</li>
@@ -38,7 +39,7 @@ function Header() {
               <li>LinkedIn - https://www.linkedin.com /in/connor-rack-ab9755206/</li>
             </a>
           </ul>
-          <ul className='HeaderLists' style={{ marginLeft: '20px' }}>
+          <ul className='HeaderLists ContactList2'>
             <a target='_blank' rel='noopener' href=''>
               <li>Showcase - </li>
             </a>
@@ -152,16 +153,29 @@ function Projects() {
           <p className='ProjectItemDesc'></p>
         </div>
         <div className='ProjectsGridItem'>
-          <a target='_blank' rel='noopener' href=''>
-            <p className='ProjectLinkLabel'>Github - </p>
+          <a
+            target='_blank'
+            rel='noopener'
+            href='https://github.com/Racksoup/soda-rank-tier-list-3'
+          >
+            <p className='ProjectLinkLabel'>
+              Github - https://github.com/Racksoup/soda-rank-tier-list-3
+            </p>
           </a>
-          <a className='ProjectsGridButton' target='_blank' rel='noopener' href=''>
-            {/* <img src={PetStoreImg} className='ProjectImage' /> */}
+          <a
+            className='ProjectsGridButton'
+            target='_blank'
+            rel='noopener'
+            href='https://mystifying-agnesi-1be257.netlify.app/'
+          >
+            <img src={SodaRankerImg} className='ProjectImage' />
           </a>
-          <a target='_blank' rel='noopener' href=''>
-            <p className='ProjectLinkLabel'></p>
+          <a target='_blank' rel='noopener' href='https://mystifying-agnesi-1be257.netlify.app/'>
+            <p className='ProjectLinkLabel'>https://mystifying-agnesi-1be257.netlify.app/</p>
           </a>
-          <p className='ProjectItemDesc'></p>
+          <p className='ProjectItemDesc'>
+            Soda Ranker Chart. User can rank their favortie soda so they can show their friends
+          </p>
         </div>
       </div>
     </div>
