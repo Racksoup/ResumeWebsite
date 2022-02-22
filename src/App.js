@@ -40,8 +40,8 @@ function Header() {
             </a>
           </ul>
           <ul className='HeaderLists ContactList2'>
-            <a target='_blank' rel='noopener' href=''>
-              <li>Showcase - </li>
+            <a target='_blank' rel='noopener' href='https://compassionate-pike-821011.netlify.app/'>
+              <li>Showcase - https://compassionate-pike-821011.netlify.app/</li>
             </a>
             <a target='_blank' rel='noopener' href=''>
               <li>Blog - </li>
